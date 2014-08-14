@@ -1,6 +1,6 @@
 --ServerExtended Homes Module Configuration Options
 
-Cost_to_sethome = false
+Cost_to_sethome = currency
 --Cost to set a home. Possible values: false, item, currency
 
 	Sethome_item = "default:mese_crystal"
@@ -9,10 +9,10 @@ Cost_to_sethome = false
 	Sethome_item_amount = 5
 	--Amount of items to use if Cost_to_sethome is set to item. Must be an integer.
 
-	Sethome_currency_name = "dollars"
+	Sethome_currency_name = "Qbix"
 	--Currency used if Cost_to_sethome is set to currency.
 
-	Sethome_currency_amount = 1
+	Sethome_currency_amount = 10
 	--Amount of currency taken if Cost_to_sethome is set to currency.
 
 Cost_to_home = false
