@@ -1,0 +1,70 @@
+----------------------------------------------------
+-----Main configuration file for ServerExtended-----
+----------------------------------------------------
+----------------------------------------------------
+
+--User Variables (Advanced, use for other options below.  You can add luacode here too.)
+--Example:
+--ServerName = "Serveur RolePlay WS"
+
+
+----------------------------------------------------
+
+
+--Enabled Modules:
+
+Ranks_Module = true
+--Allows players to be granted priveleges based on time and manual promotions by admins.
+
+TeleportRequest_Module = true
+--Allows players to request permission to teleport to other players.
+
+Homes_Module = true
+--Allows players to set homes and teleport back to them with configurable prices or consequences
+
+Warps_Module = true
+--Allows players with permission to teleport to admin-specified places.
+
+GUI_Module = true
+--Player profile, setting, and other cool features, all in a user-friendly GUI. 
+--WIP-- Keep disabled for now unless you are helping test.
+
+Economy_Module = false
+--Basic economy system. 
+--WIP-- Keep disabled for now unless you are helping test.
+
+Player_Extras_Module = true
+--Small helper commands for players.
+
+Admin_Tools_Module = true
+--Small helper commands for admins.
+
+
+----------------------------------------------------
+
+
+--Other options:
+
+Welcome_String = "Bienvenue a toi sur  [servername],"
+--String shown to people on the server when a new player joins the game.
+
+Use_Announcer = true
+--Use a timed announcer to show messages to all players.
+
+	--Announcer options (If Use_Announcer = true)
+	
+	Announcer_Delay_Time = "45"
+	--Delay between announcing messages
+
+	Announcer_Messages = "[RP WS] Bienvenue sur le serveur [servername] !"
+	--Messages for the announcer to cycle through. Seperate messages by commas.
+
+Chat_String = "[&rank] &name: &message"
+--Formatted chat string, this is experimental and looks a bit strange on the sender's client due to an engine bug.
+
+--Possible values: false, "<string>". &rank will be replaced with the user's rank, &name will be the
+--player's nickname if set, otherwise his default name.  &dname will be his default name, and &message will be his chat message.
+--If the player has a nickname, then &nick will add his nickname as well.
+
+--Module specific configuration options can be found in the module folders /config.txt.
+--Thanks for using ServerExtended by Traxie21!
